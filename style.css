@@ -1,0 +1,282 @@
+/* @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300); */
+body {
+background-color: #4d0000;
+
+}
+.area {
+    float: right;
+    background: #e2e2e2;
+    width: 0%;
+    height: 100%;
+}
+
+.main-menu:hover,
+nav.main-menu.expanded {
+    width: 250px;
+    overflow: visible;
+}
+
+.main-menu {
+    background: #220803;
+    border-right: 1px solid #e5e5e5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 0px;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    z-index: 1000;
+    -moz-transition: width .05s linear;
+    -ms-transition: width .05s linear;
+    -o-transition: width .05s linear;
+}
+
+.main-menu>ul {
+    margin: 7px 0;
+}
+
+.main-menu li {
+    position: relative;
+    display: block;
+    width: 250px;
+}
+
+.main-menu li>a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+}
+
+.main-menu .nav-icon {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.main-menu .nav-text {
+    position: relative;
+    display: table-cell;
+    vertical-align:middle ;
+    width: 190px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.main-menu li:hover>a,
+nav.main-menu li.active>a,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus,
+.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+.dashboard-page nav.dashboard-menu ul li.active a {
+    color: #4d0000;
+    background-color: #ffffe6;
+}
+
+.nav-text {
+    font-size: 30px;
+}
+
+.base {
+    margin-left: 400px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.all2 {
+    background-color: #ffffe6;
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-left: 10px;
+    height: 695px;
+    width: 60%;
+    border: 5px solid #4d0000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #FAFBE2;
+    display: inline-block;
+    margin-left: 1000px;
+}
+
+
+
+.img2 {
+
+    height: 400px;
+    width: 750px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.vidio2 {
+
+    height: 400px;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+
+
+.all3 {
+    background-color: #ffffe6;
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-left: 10px;
+    height: 715px;
+    width: 60%;
+    border: 5px solid #4d0000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #FAFBE2;
+    display: inline-block;
+}
+
+.img3 {
+
+    height: 200px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 32px;
+}
+
+
+
+.vidio3 {
+
+    height: 500px;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 300px;
+
+}
+
+
+
+
+.Pro {
+    display: inline;
+    padding: 50px;
+    margin-left: 200px;
+}
+
+button {
+    margin-left: 290px;
+    background-color: #4d0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 25px;
+}
+
+video {
+    height: 100%;
+}
+
+button:hover {
+    color: #4d0000;
+    background-color: #ffffe6;
+}
+
+h3 {
+    text-align: center;
+    padding-top: -10px;
+    font-size: 45px;
+    color: #4d0000;
+}
+
+.pp {
+    text-align: center;
+    width: 80%;
+    padding-left: 50px;
+    color: #4d0000;
+    font-size: 21px;
+    margin-top: -10px;
+}
+
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffe6;
+    text-align: center;
+    padding-top: 2px;
+    color: #4d0000;
+    font-size: 30px;
+}
+a {
+    color: #4d0000;
+}
+a:hover {
+    color: #B82509;
+}
+
+.all5 {
+    background-color: #ffffe6;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    height: 930px;
+    width: 80%;
+    border: 5px solid #4d0000;
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    background-color: #FAFBE2;
+    display: inline-block;
+}
+
+.img5 {
+
+    height: 600px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+h1 {
+    text-align: center;
+    margin-top: 55px;
+    color: #FAFBE2;
+}
